@@ -1,0 +1,13 @@
+@font-face {
+    font-family:'pixel-font';
+    src: url(fonts/rainyhearts.ttf) 
+    format('truetype')
+}
+
+p{
+    font-family: 'pixel-font', sans-serif;
+}
+
+body{
+    background-color: coral;
+}

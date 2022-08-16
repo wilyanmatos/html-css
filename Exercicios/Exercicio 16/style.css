@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-image: linear-gradient(to right, #027373, #58A697);
+    
+}
+
+main{
+    background-color: white;
+
+
+    border-radius: 10px;
+    /*Reduz em px as pontas da página*/
+
+    width: 1000px;
+
+
+    padding: 10px;
+
+
+    margin: auto;
+
+    box-shadow: 5px 5px 15px #024d4d;
+    /*Adiciona uma sombra na página, precisa dos parâmetros (quanto vai andar para o lado, para baixo, espalhar, transparencia)*/
+
+}
+
+h1{
+    text-align: center;
+    color: #027373;
+
+    text-shadow: 1px 1px 2px #015858;
+    /*Deixa texto com sombra*/
+}
+
+h2{
+    color: #58A697;
+}
