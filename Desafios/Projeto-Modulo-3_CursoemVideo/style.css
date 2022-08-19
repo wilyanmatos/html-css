@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Titulo';
+    src: url(fonts/Passion_One/PassionOne-Bold.ttf)
+    format('truetype');    
+}
+@font-face {
+    font-family:'paragrafo';
+    src: url(fonts/Sriracha/Sriracha-Regular.ttf)
+    format('truetype');
+}
+
+
+body{
+    background-color: rgba(81, 64, 156, 0.432);
+    font-family: 'paragrafo', Verdana, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+    position: relative;
+
+}
+
+header > h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    line-height: 10px;
+    font-family: 'Titulo';
+    font-size: 5em;
+    
+}
+header > p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 10px;
+    font-size: 1.2em;
+
+}
+
+a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    margin: auto;
+    max-width: 900px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+main > p{
+    font-size: 1.5em;
+}
