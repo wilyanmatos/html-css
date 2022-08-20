@@ -58,13 +58,39 @@ a{
     text-decoration: none;
 }
 
+
 main{
     margin: auto;
     max-width: 900px;
     background-color: aqua;
     padding: 20px;
+    font-size: 1.8em;
 }
 
-main > p{
-    font-size: 1.5em;
+#in_image_1{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed; /*Papel de parede travado*/
+    background-repeat: no-repeat; /*Papel de parede não repete*/
+    background-position: center; /*Papel de parede centralizado*/
+    background-size: cover; /*cobre a tela inteira, mesmo que precise cortar*/
+    height: 500px;
+    position: relative;
+}
+
+#in_image_1 > p{
+    position: absolute;
+    background-color: brown;
+    width: 400px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+
+#text_01{
+    margin-top: 150px;
+    width: 350px;
+
 }

@@ -1,2 +1,2 @@
-1 - Margin no primeiro parâgrafo
-2 - divs nos paragrâfos para colocar imagens de fundo
+1 - centralizar imagem a esquerda
+2 - 
