@@ -55,6 +55,10 @@ header a:hover, footer a:hover{
 
 .imagem{
     background-color: aquamarine;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
+    background-attachment: fixed;
+
 }
 
 section{
@@ -69,15 +73,28 @@ section{
 
 section > pre{
     font-family: var(--font3);
+
 }
 
 section.imagem > pre{
     /*Ajusta a caixa para se adaptar ao conteúdo*/
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    text-shadow: 1px 1px 0px black;
 }
 
+section#img_01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+  
+}
+
+section#img_02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
 
 footer{
     background-color: black;
