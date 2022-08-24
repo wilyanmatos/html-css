@@ -4,4 +4,5 @@
  Futuramente Inicando JavaScript
 
 
-<a href="https://wilyanmatos.github.io/projeto-android/">Projeto_Site-Android</a>
+<a href="https://wilyanmatos.github.io/projeto-android/"> &#x1F916; Primeiro Site - Projeto_Site-Android  </a>
+<a href=""> &#x1F4DD; Segundo Site - Projeto Cordel</a>
