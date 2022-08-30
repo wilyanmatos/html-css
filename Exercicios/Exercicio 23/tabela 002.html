@@ -13,6 +13,7 @@
             width: 500px;
             border-collapse: collapse;
             text-align: center;
+            position: relative;
         }
 
         caption{
@@ -48,12 +49,12 @@
             background-color: lightslategrey;
         }
 
-        thead{
+        th{
             position: sticky;
-            top: -1;
-
+            top: 0;
+            background-color: darkgray;
         }
-
+        
 
         
     </style>
@@ -65,8 +66,8 @@
             População Federativa
         </caption>
         <thead>
-            <th scope="col">Estado</th>
-            <th scope="col">População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
         </thead>
 
         <tbody>
