@@ -13,6 +13,7 @@
             width: 500px;
             border-collapse: collapse;
             text-align: center;
+            position: relative;
         }
 
         caption{
@@ -48,13 +49,13 @@
             background-color: lightslategrey;
         }
 
-        thead{
+        thead > div{
+            width: 200px;
+            height: 200px;
             position: sticky;
             top: -1;
-
+            background-color: brown;
         }
-
-
         
     </style>
     <title>Tabelas Completas em html e css</title>
@@ -64,11 +65,12 @@
         <caption>
             População Federativa
         </caption>
-        <thead>
-            <th scope="col">Estado</th>
-            <th scope="col">População</th>
+        <thead
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
         </thead>
-
         <tbody>
             <tr>
                 <td>São Paulo</td>
