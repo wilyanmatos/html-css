@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+
         table{
+            position: absolute;
             border: 1px solid black;
+        }
+
+        td:hover{
+            background-color: black;
+            color: white;
         }
         td{
             border: 1px solid black;
@@ -14,6 +21,16 @@
             width: 100px;
             text-align: center;
         }
+
+        #tabela-01{
+            right: 40px;
+        }
+
+        body{
+            background-color: rgba(97, 91, 91, 0.158);
+        }
+
+   
     </style>
     <title>Mesclagem</title>
 </head>
@@ -25,71 +42,55 @@
             <td rowspan="2">3</td>
             <td>4</td>
         </tr>
-
         <tr>
             <td>5</td>
             <td>6</td>
-
             <td>8</td>
         </tr>
-
         <tr>
             <td colspan="3">11</td>
-
             <td>12</td>
         </tr>
-
         <tr>
             <td rowspan="2">13</td>
             <td colspan="2">14</td>
             <td>16</td>
         </tr>
-
         <tr>
             <td>18</td>
             <td>19</td>
             <td>20</td>
         </tr>
     </table>
-    <table>
+
+    <table id="tabela-01">
         <tr>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-            <td>E</td>
+            <td colspan="4">A</td>
+            <td rowspan="4">E</td>
         </tr>
 
         <tr>
-            <td>F</td>
-            <td>G</td>
+            <td rowspan="4">F</td>
             <td>H</td>
             <td>I</td>
             <td>J</td>
         </tr>
 
         <tr>
-            <td>K</td>
             <td>L</td>
             <td>M</td>
             <td>N</td>
-            <td>O</td>
         </tr>
 
         <tr>
-            <td>P</td>
             <td>Q</td>
             <td>R</td>
             <td>S</td>
-            <td>T</td>
+
         </tr>
 
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="4" >V</td>
         </tr>
 
     </table>
