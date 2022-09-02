@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption{
+            font-weight: bolder;
+            line-height: 35px;
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .job{
+            background-color: brown;
+        }
+    </style>
+    <title>Exercicio de Tabela</title>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="job">
+        </colgroup>
+        <thead>
+            <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vitoria</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Dubladora</td>
+            </tr>
+            <tr>
+                <td>William</td>
+                <td>M</td>
+                <td>24</td>
+                <td>Perito Criminal Federal</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Engenheira</td>
+            </tr>
+            <tr>
+                <td>Alicia</td>
+                <td>F</td>
+                <td>21</td>
+                <td>Dona de bar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
